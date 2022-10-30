@@ -1,0 +1,27 @@
+-Login : iduser, email, password
+
+-Inventory(stock) : idcif, namanasabah, deskripsi(jeniskredit dan keperluan pengajuan), lemaridokumen, jangka_agunan, jangka_selesai, status_agunan
+
+-Masuk : idmasuk, idcif, idld, tanggalmasuk, uploaddokumen, inputmarketing (dropdown mainkan di html), ((belum)centangpersetujuan)->mainin di html
+
+-Pinjam : idpinjam, idcif, idld, tanggalpinjam, peminjam(marketing(dropdown mainkan di html)), ((belum)centangpersetujuan)->mainin di html
+
+-Pengembalian : idkembali, idcif, idld, tanggalkembali, pengembalian(marketing(dropdown mainkan di html)), ((belum)centangpersetujuan)->mainin di html
+
+-Keluar : idkeluar, idcif, idld, tanggalkeluar, penerima
+
+
+
+
+
+
+
+
+
+
+
+tutorial:
+idbarang = idcif
+namabarang = namanasabah
+stock = lemaridokumen
+tanggal = tanggalmasuk
